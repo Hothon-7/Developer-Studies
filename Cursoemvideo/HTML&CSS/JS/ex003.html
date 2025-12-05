@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Programa</title>
+    <style>
+        body{
+            background-color: rgba(0, 255, 255, 0.734);
+            color: white;
+            font: normal 20pt arial;
+        }
+        h1{
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+       var n1 = Number(window.prompt('Digite um número: '))//o window.prompt sempre faz a categorização de string
+       var n2 = Number(window.prompt('Digite outro numero: '))
+       var s = n1 + n2
+       window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)//concatenação + serve para adição e concatenação, para a diferença adição tem que ter número antes e depois e para a concatenação tem que ter string antes e depois ou seja, (number + number) o JS faz adição, (string + string) a concatenação
+
+       //Para o convertimento de uma string a um number ah as seguintes opções == number.parseInt(n)"para numeros inteiros" e number.parseFloat(n)"para numeros real com . e , ex = 0.45"
+       //para converter o number pelo string é só colocar o String(num) na frente ou (num).toString() ex: abaixo
+       //window.alert('A soma dos valores é ' + s.toString())ou
+       //window.alert('A soma dos valores é ' + String(s))
+       
+    </script>
+</body>
+</html>

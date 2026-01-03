@@ -1,0 +1,12 @@
+#caixa{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+
+}
+#caixa:hover{
+    width: 400px;
+    height: 200px;
+    background-color: purple;
+    /*transition: width 0.8s ease, background 3s;*/
+    transition: all 1s ease;
